@@ -6,7 +6,7 @@ import en_core_web_sm
 import pickle as pk
 import numpy as np
 from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
-from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
+from sklearn.linear_model import LogisticRegression
 
 nlp = spacy.load("en_core_web_sm")
 
