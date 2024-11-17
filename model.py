@@ -31,7 +31,7 @@ with open('user_final_rating.pkl', 'rb') as file:
 
 
 
-product_df = pd.read_csv(r'sample30.csv',sep=",")
+product_df = pd.read_csv('sample30.csv',sep=",")
 
 # Write your function here to clean the text and remove all the unnecessary elements.
 def cleaning_data(text):
