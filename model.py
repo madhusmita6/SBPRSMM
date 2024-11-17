@@ -13,11 +13,6 @@ from nltk.tokenize import word_tokenize
 from nltk.stem import LancasterStemmer
 from nltk.stem import WordNetLemmatizer
 nlp = spacy.load("en_core_web_sm")
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-
 
 # load the pickle files 
 count_vector = pk.load(open('count_vectorizer.pkl','rb'))            # Count Vectorizer
