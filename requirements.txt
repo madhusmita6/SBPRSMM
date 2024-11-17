@@ -1,7 +1,7 @@
 Flask==3.0.3
 pandas==2.1.4--only-binary pandas
 numpy==1.26.4--only-binary numpy
-scikit-learn==1.4.2----only-binary scikit-learn
+scikit-learn==1.4.2--only-binary scikit-learn
 spacy==3.7.4
 regex==2023.10.3
 gunicorn==20.1.0
